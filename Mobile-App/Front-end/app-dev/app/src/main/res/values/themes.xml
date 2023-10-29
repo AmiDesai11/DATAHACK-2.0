@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Datathon" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimaryDark">@color/appAccent</item>
+    </style>
+
+    <style name="Theme.Datathon" parent="Base.Theme.Datathon" />
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/mainBcg"
+    android:padding="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ChatFragment">
+
+   <ImageView
+       android:id="@+id/backBtn"
+       android:layout_width="@dimen/_50sdp"
+       android:background="@color/mainBcg"
+       android:padding="@dimen/_10sdp"
+       android:layout_gravity="start"
+       android:rotation="180"
+       android:layout_marginBottom="@dimen/_100sdp"
+       android:layout_height="@dimen/_50sdp"
+       android:src="@drawable/right_arrow_btn"/>
+
+
+   <EditText
+       android:id="@+id/emailhere"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Email Here"
+       android:background="@color/mainBcg"
+       android:layout_marginBottom="@dimen/_10sdp"
+       android:textColor="@color/white"
+       android:textSize="@dimen/_16ssp"
+       android:fontFamily="@font/ubuntu_regular"
+       android:padding="@dimen/_5sdp"
+       />
+
+
+   <EditText
+       android:id="@+id/messageHere"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:minHeight="@dimen/_200sdp"
+       android:hint="Message Here..."
+       android:background="@color/mainBcg"
+       android:textSize="@dimen/_16ssp"
+       android:fontFamily="@font/ubuntu_regular"
+       android:textColor="@color/white"
+       android:padding="@dimen/_5sdp"
+       />
+
+   <ImageView
+       android:id="@+id/sendButton"
+       android:layout_width="@dimen/_50sdp"
+       android:background="@drawable/card_btn_bcg"
+       android:padding="@dimen/_10sdp"
+       android:layout_gravity="end"
+       android:layout_marginTop="@dimen/_70sdp"
+       android:elevation="@dimen/_10sdp"
+       android:layout_height="@dimen/_50sdp"
+       android:src="@drawable/baseline_send_24"/>
+
+
+
+</LinearLayout>
